@@ -18,11 +18,11 @@ npm install
 npm start
 ```
 
-To deploy in Heroku, use the [Heroku buildpack](https://github.com/mars/create-react-app-buildpack). Change `mymapviz` to an appropriate title. The following code will deploy the React app to the endpoint https://mymapviz.herokuapp.com/.
+To deploy in Heroku, use the [Heroku buildpack](https://github.com/mars/create-react-app-buildpack). The following code will deploy the React app to the endpoint https://reactspringdemo.herokuapp.com/.
 
 ```
 heroku config:set REACT_APP_API_KEY=XXXXX-XXXXXX
-heroku create mymapviz --buildpack mars/create-react-app
+heroku create reactspringdemo --buildpack mars/create-react-app
 git push heroku master
 heroku open
 ```
