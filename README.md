@@ -45,3 +45,4 @@ Setting up this repository was made possible by the great community of programme
 
 - [React Spring Sandboxes](https://codesandbox.io/u/emmabostian/sandboxes) by Emma Bostian
 - [React SVG Icon Components](https://www.robinwieruch.de/react-svg-icon-components)
+- [React-Spring Examples](https://github.com/react-spring/react-spring-examples/)
