@@ -1,30 +1,22 @@
 import React from 'react';
 import { useSpring, config } from 'react-spring';
-import { RotatingKeyframe } from './components/RotatingKeyframe.js';
-import AnimatedText from './components/AnimatedText.js';
-import AnimatedSVG  from './components/AnimatedSVG.js';
-import StaticSVG  from './components/StaticSVG.js';
-
-import image from './img/logo.svg';
 import './App.css';
 
+import { RotatingKeyframe } from './components/RotatingKeyframe.js';
+import FadeInText from './components/FadeInText.js';
+import Dashoffset from './components/Dashoffset.js';
+
+import logo from './Icons/logo.svg';
 
 function App() {
 
   return (
     <div className="App">
       <div className="App-header">
-        <AnimatedText text={"This text fades in."}/>
-        <RotatingKeyframe image={image} />
-        <StaticSVG />
-
-
+        <FadeInText text={"This text fades in"}/>
+        <RotatingKeyframe image={logo}/>
+        <Dashoffset />
       </div>
-
-      <div>
-        <p>Page 2</p>
-      </div>
-
     </div>
   );
 }
