@@ -35,7 +35,6 @@ npm start
 ### Deploy to Heroku
 To deploy in Heroku, use the [Heroku buildpack](https://github.com/mars/create-react-app-buildpack). The following code will deploy the React app to the endpoint https://reactspringdemo.herokuapp.com/.
 ```
-heroku config:set REACT_APP_API_KEY=XXXXX-XXXXXX
 heroku create reactspringdemo --buildpack mars/create-react-app
 git push heroku master
 heroku open
